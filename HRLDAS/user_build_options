@@ -1,0 +1,23 @@
+
+#=============================================================================================
+#  Options for Linux with gfortran (not fully tested)
+#=============================================================================================
+
+ COMPILERF90    =       /usr/bin/gfortran
+ FREESOURCE     =       -ffree-form  -ffree-line-length-none
+ F90FLAGS       =       -g -fconvert=big-endian -fbounds-check -fno-range-check -fno-underscoring
+ MODFLAG        =       -I
+ LDFLAGS        =       
+ CPP            =       /usr/bin/cpp
+ CPPFLAGS       =       -P -traditional -D_GFORTRAN_
+ LIBS           =       
+ LIBJASPER      =       
+ INCJASPER      =        
+ NETCDFMOD      =       -I/usr/include
+ NETCDFLIB      =       -L/usr/lib -lnetcdf -lnetcdff
+ BZIP2          =       
+ BZIP2_LIB      =       
+ BZIP2_INCLUDE  =       
+ RM             =       rm -f
+ CC             =       /usr/bin/gcc
+
